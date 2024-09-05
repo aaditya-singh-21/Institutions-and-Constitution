@@ -24,15 +24,19 @@ body {
   color: red;
   font-weight: bold;
 }
-
-.logo h1 {
-  margin: 0;
-  font-size: 2.5em;
+.nav #login{
+  color:darkgrey;
 }
 
-.logo span {
-  font-size: 1.2em;
+.logo #headline {
+  margin: 0;
+  font-size: 3.0em;
+}
+
+.logo #subline {
+  font-size: 2.0em;
   font-style: italic;
+  color: red;
 }
 
 .why-constitution-matters {

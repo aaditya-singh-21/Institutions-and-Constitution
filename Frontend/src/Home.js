@@ -56,17 +56,18 @@ const Home = () => {
             {/* Header Section */}
             <header className="header">
                 <div className="nav">
+                    <button id="login">LOGIN</button>
                     <span>HOME</span>
                     <span>PARTS</span>
                     <span>ABOUT US</span>
                     <span>CONTACT US</span>
                 </div>
                 <div className="logo">
-                    <h1>
-                        Institutions & Constitution
+                    <h1 id="headline">
+                        Institutions & Constitution</h1>
                         <br />
-                        <span>"Where Complex Laws Become Simple"</span>
-                    </h1>
+                        <span id="subline">"Where Complex Laws Become Simple"</span>
+                    
                 </div>
             </header>
 
