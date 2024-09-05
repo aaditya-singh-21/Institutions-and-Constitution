@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // Import your CSS
+import './Home.css'; // Import your CSS
 import Slider from "react-slick"; // Import react-slick slider
 import "slick-carousel/slick/slick.css"; // slick-carousel CSS
 import "slick-carousel/slick/slick-theme.css"; // slick-carousel theme CSS
@@ -12,7 +12,7 @@ import nehruImage from './images/nehru.jpg';
 import Flipcard from './Flipcard';
 import Footer from './components/Footer';
 
-const App = () => {
+const Home = () => {
   const architects = [
     {
       name: "Dr. B.R. Ambedkar",
@@ -153,4 +153,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
