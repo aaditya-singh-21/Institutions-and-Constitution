@@ -39,7 +39,7 @@
             <div class="line"></div>
 
             <div class="media-options">
-                <a href="#" class="field google">
+                <a href="#" class="field google" onclick="googleLogin()">
                     <img src = "./google.jpg" alt="google-icon" class="google-img">
                     <span>Login with Google</span>
                 </a>
@@ -78,7 +78,7 @@
             <div class="line"></div>
 
             <div class="media-options">
-                <a href="#" class="field google">
+                <a href="#" class="field google" onclick="googleLogin()">
                     <img src = "./google.jpg" alt="google-icon" class="google-img">
                     <span>Continue with Google</span>
                 </a>
@@ -86,7 +86,10 @@
         </div>
     </section>
 
+    <!-- Google API script -->
+    <script src="https://apis.google.com/js/api.js"></script>
+
     <!-- Javascript -->
-     <script src = "./login.js"></script>
+    <script src = "./login.js"></script>
 </body>
 </html>

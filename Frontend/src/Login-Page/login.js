@@ -1,26 +1,25 @@
-const forms = document.querySelector(".forms"),
-     pwShowHide = document.querySelectorAll(".eye-icon"),
-     links = document.querySelectorAll(".link");
-
-pwShowHide.forEach(eyeIcon => {
-    eyeIcon.addEventListener("click",() => {
-        let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
-
-        pwFields.forEach(password =>{
-            if(password.type === "password"){
-                password.type = "text";
-                eyeIcon.classList.replace("bx-hide","bx-show");
-                return;
-            }
-            password.type = "password";
-            eyeIcon.classList.replace("bx-show","bx-hide");
-        })
-    }) 
-})
-
-links.forEach(link => {
-    link.addEventListener("click",e => {
-        e.preventDefault();
-        forms.classList.toggle("show-signup");
-    })
-})
+// Google login function
+function googleLogin() {
+    // Initialize Google API client
+    gapi.load('auth2', function() {
+      // Get the Google Auth instance
+      var auth2 = gapi.auth2.getAuthInstance({
+        client_id: 'YOUR_CLIENT_ID', // Replace with your client ID
+        scope: 'profile email'
+      });
+  
+      // Sign in with Google
+      auth2.signIn().then(function() {
+        // Get the user's profile information
+        var profile = auth2.currentUser.get().getBasicProfile();
+        console.log('Signed in as: ' + profile.getName());
+  
+        // You can also get the user's email address
+        var email = profile.getEmail();
+        console.log('Email: ' + email);
+  
+        // You can now use the user's profile information to authenticate with your server
+        // or perform other actions
+      });
+    });
+  }
