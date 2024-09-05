@@ -137,7 +137,7 @@ const Home = () => {
                 <h2>Explore the Constitution</h2>
                 <Flipcard /> {/* Add the FlipCard component */}
             </section>
-            <button className="explore-btn" onClick={() => navigate('/mind-map')}>Explore MindMaps</button>
+            <button className="mindmap-btn" onClick={() => navigate('/mind-map')}>Explore MindMaps</button>
 
             {/* Footer Section */}
             <footer className="footer">

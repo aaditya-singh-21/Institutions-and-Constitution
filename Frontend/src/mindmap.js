@@ -44,7 +44,7 @@ const rolesData = [
     brief:"Preside over the proceedings of their respective houses of Parliament."
   }
   
-  // Add more roles as per the flowchart design
+  // Add more roles as per the mindmap design
 ];
 
 const MindMap = () => {
@@ -99,3 +99,4 @@ const MindMap = () => {
 };
 
 export default MindMap;
+
