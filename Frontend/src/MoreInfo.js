@@ -1,7 +1,11 @@
 import React from 'react';
+import preambleImage from './images/preamble.jpg';
 const MoreInfo = () => {
     return (
-        <div className="more-info-page">
+        <div className="MoreInfo">
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+                <img src={preambleImage} alt=" Constitution of India Preamble" style={{ maxWidth: '100%', height: 'auto' }} />
+            </div>
             <h1>Why Understanding the Constitution Matters</h1>
             <p>
                 The Constitution of India serves as the foundation of the country's legal and political system. 
