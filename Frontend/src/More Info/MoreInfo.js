@@ -1,5 +1,5 @@
 import React from 'react';
-import preambleImage from './images/preamble.jpg';
+import preambleImage from '../images/preamble.jpg';
 import './MoreInfo.css';
 
 const MoreInfo = () => {
