@@ -1,10 +1,13 @@
 import React from 'react';
 import preambleImage from './images/preamble.jpg';
+import './MoreInfo.css';
+
 const MoreInfo = () => {
     return (
-        <div className="MoreInfo">
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-                <img src={preambleImage} alt=" Constitution of India Preamble" style={{ maxWidth: '100%', height: 'auto' }} />
+        <div className="more-info">
+            <h1>Constitution Preamble of India</h1>
+            <div className="image-container">
+                <img src={preambleImage} alt="Constitution of India Preamble" />
             </div>
             <h1>Why Understanding the Constitution Matters</h1>
             <p>
