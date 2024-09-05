@@ -7,9 +7,10 @@ import ayyarImage from './images/ayyar.jpg';
 import prasadImage from './images/prasad.jpg';
 import patelImage from './images/patel.jpg';
 import nehruImage from './images/nehru.jpg';
-
+import Flipcard from './Flipcard';
 
 const Home = () => {
+    
     const navigate = useNavigate(); // Initialize navigate
     const architects = [
         {
@@ -128,6 +129,12 @@ const Home = () => {
                     and quizzes, we break down dense legal concepts into engaging and understandable formats making them easy to understand for students,
                     educators, and anyone interested in Indian governance.
                 </p>
+            </section>
+
+            {/* FlipCard Section */}
+            <section className="flip-card-section">
+                <h2>Explore the Constitution</h2>
+                <Flipcard /> {/* Add the FlipCard component */}
             </section>
 
             {/* Footer Section */}
