@@ -1,38 +1,167 @@
-.App {
+/*Below is Home css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #00254d;
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.nav span {
+  margin: 0 15px;
+  color: red;
+  font-weight: bold;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.logo span {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.why-constitution-matters {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #e6e6e6;
+}
+
+.why-constitution-matters h2 {
+  color: red;
+}
+
+.why-constitution-matters h3 {
+  margin-top: 10px;
+}
+
+.explore-btn {
+  padding: 10px 20px;
+  background-color: red;
   color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.parliament-section {
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.parliament-image {
+  width: 80%;
+  max-width: 800px;
+  margin-top: 30px;
+  border-radius: 10px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.architects {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+}
+
+.architects-cards {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  overflow: hidden;
+}
+
+.architect-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.architect-card img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.arrow {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  /*Added padding below*/
+  padding: 25px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: background-color 0.3s;
+  opacity: 0.7;
+}
+
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.8);  
+}
+
+.left-arrow {
+  position: absolute;
+  margin-left: -60px;
+  left: 10px;
+  /* width: 70px;
+  height: 100px;
+  border: 10px solid black; 
+  top: 50%;
+  transform: translateY(-50%);*/
+   
+}
+
+.right-arrow {
+  position: absolute;
+  right: 10px;
+  margin-right: -60px;  
+  /*width: 70px;
+  height: 100px;
+  border: 10px solid black; 
+  top: 50%;
+  transform: translateY(-48%);*/
+  
+}
+
+.carousel:hover .arrow {
+  opacity: 0.5;
+}
+
+.about-us {
+  padding: 50px 20px;
+  background-color: #00254d;
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: white;
 }
