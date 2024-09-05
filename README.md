@@ -1,6 +1,7 @@
 # Institutions-and-Constitution
 
-Team: Juriscodes
-This website is about learning constitution part 5 and 6.
+Team: Juriscode
 
-Stack: MERN STACK
+
+This website is about learning constitution part 5 and 6.
+We aim to educate people about how the government works at various stages through our website, we are using things like an interactive mind map to help the learning experience enjoyable.

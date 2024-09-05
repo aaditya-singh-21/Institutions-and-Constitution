@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel ="stylesheet" href="Contact.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="contact-info"></div>
+
+            <div class="contact-form">
+                <form action="Contact.html">
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" placeholder="Username">
+                    </div>
+
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" placeholder="Email">
+                    </div>
+
+                    <div class="input-container">
+                        <input type="number" class="input" placeholder="Phone" title="Error Message" pattern="[1-9]{1}[0-9]{9}">
+                    </div>
+
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input" placeholder="Message"></textarea>
+                    </div>
+
+                    <input type="submit" value="Send" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="Contact.js"></script>
+</body>
+</html>
