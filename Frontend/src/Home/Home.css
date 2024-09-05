@@ -1,4 +1,3 @@
-/*Below is Home css */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,8 +6,7 @@ body {
 }
 
 .header {
-  background-color: #00254d;
-  color: rgb(241, 223, 223);
+  color: white;
   padding: 20px;
   text-align: center;
 }
@@ -21,46 +19,69 @@ body {
 
 .nav span {
   margin: 0 15px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
-.nav #login{
-  color:darkgrey;
+
+.logo {
+  background-color: #00254d;
 }
 
-.logo #headline {
+.logo h1 {
+  text-align: center;
+  color: white;
   margin: 0;
-  font-size: 3.0em;
+  font-size: 56px;
 }
 
-.logo #subline {
-  font-size: 2.0em;
+.logo span {
+  font-size: 30px;
   font-style: italic;
-  color: rgb(252, 241, 241);
+}
+
+.container {
+  max-width: 100%;
+  background-color: #d9d9d9;
+  display: flex;
+  display: flex;
+  justify-content: left;
+  position: inherit;
 }
 
 .why-constitution-matters {
-  text-align: center;
-  padding: 50px 20px;
-  background-color: #e6e6e6;
+  text-align: left;
+  padding: 30px 20px;
+  max-width: 50%;
+}
+
+.custom-hr {
+  background-color: #da5c4f;
+  height: 5px;
+  border: none;
+  width: 150%;
+  margin: 10px auto;
 }
 
 .why-constitution-matters h2 {
-  color: red;
+  color: #da5c4f;
 }
 
 .why-constitution-matters h3 {
-  margin-top: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #002d5b;
+  font-size: 40px;
 }
 
 .explore-btn {
+  border-radius: 10px;
   padding: 10px 20px;
-  background-color: red;
+  background-color: #da5c4f;
   color: white;
   border: none;
   cursor: pointer;
   font-size: 1em;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 .parliament-section {
@@ -70,9 +91,10 @@ body {
 .parliament-image {
   width: 80%;
   max-width: 800px;
-  margin-top: 30px;
-  border-radius: 10px;
-  }
+  margin-top: -70px;
+  border-radius: 30px;
+  z-index: 2;
+}
 
 .architects {
   padding: 50px 20px;
@@ -92,32 +114,49 @@ body {
 
 .architects-cards {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
-  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
 }
 
 .architect-card {
-  background-color: white;
+  flex: 1;
   padding: 20px;
-  border-radius: 10px;
-  width: 250px;
-  margin: 0 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.architects h2 {
+  margin-top: 20px;
+  font-size: 48px;
+}
+
+.architect-card h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.architect-card p {
+  font-size: 18px;
+  color: #555;
 }
 
 .architect-card img {
-  width: 100%;
-  border-radius: 50%;
+  align-content: right;
+  width: 230.41px;
+  height: 254px;
+  border-radius: 10px;
 }
 
 .arrow {
   background: rgba(0, 0, 0, 0.5);
   color: white;
-  border-radius: 10px;
+  border: none;
   padding: 10px 20px;
-  /*Added padding below*/
-  padding: 25px;
   cursor: pointer;
   font-size: 24px;
   transition: background-color 0.3s;
@@ -125,48 +164,50 @@ body {
 }
 
 .arrow:hover {
-  background: rgba(0, 0, 0, 0.8);  
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .left-arrow {
   position: absolute;
-  margin-left: -60px;
   left: 10px;
-  /* width: 70px;
-  height: 100px;
-  border: 10px solid black; 
-  top: 50%;
-  transform: translateY(-50%);*/
-   
 }
 
 .right-arrow {
   position: absolute;
   right: 10px;
-  margin-right: -60px;  
-  /*width: 70px;
-  height: 100px;
-  border: 10px solid black; 
-  top: 50%;
-  transform: translateY(-48%);*/
-  
 }
 
 .carousel:hover .arrow {
-  opacity: 0.5;
+  opacity: 1;
+}
+
+.about-us h2 {
+  margin-top: 10px;
+  color: #00254d;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .about-us {
-  padding: 50px 20px;
-  background-color: #94b6db;
-  color: white;
+  padding: 30px 20px;
+  background-color: #d9d9d9;
+  color: black;
+  text-align: left;
+}
+
+.flip-card-section h2 {
   text-align: center;
+  font-size: 48px;
+}
+
+.flip-card-section h3 {
+  text-align: center;
+  font-size: 28px;
 }
 
 .footer {
   text-align: center;
   padding: 20px;
-  background-color: #ddd3d3;
+  background-color: #000;
   color: white;
 }
-
