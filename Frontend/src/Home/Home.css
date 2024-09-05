@@ -22,7 +22,12 @@ body {
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
-
+#login{
+  color: darkgray;
+}
+.mindmap{
+  margin-left:45%;
+}
 .logo {
   background-color: #00254d;
 }

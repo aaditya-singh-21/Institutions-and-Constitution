@@ -3,15 +3,23 @@ import './Home.css'; // Import your CSS
 import Slider from "react-slick"; // Import react-slick slider
 import "slick-carousel/slick/slick.css"; // slick-carousel CSS
 import "slick-carousel/slick/slick-theme.css"; // slick-carousel theme CSS
-import parliamentImage from './images/parliament.jpg'; // Add your images to the /src/images/ folder
-import ambedkarImage from './images/ambedkar.jpg'; // Replace with actual image paths
-import ayyarImage from './images/ayyar.jpeg';
-import prasadImage from './images/prasad.jpg';
-import patelImage from './images/patel.jpg';
-import nehruImage from './images/nehru.jpg';
+import parliamentImage from '../images/parliament.jpg'; // Add your images to the /src/images/ folder
+import ambedkarImage from '../images/ambedkar.jpg'; // Replace with actual image paths
+import ayyarImage from '../images/ayyar.jpeg';
+import prasadImage from '../images/prasad.jpg';
+import patelImage from '../images/patel.jpg';
+import nehruImage from '../images/nehru.jpg';
 import Flipcard from './Flipcard';
+import { useNavigate } from 'react-router-dom';
+
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  // Generic navigation function
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
   const architects = [
     {
       name: "Dr. B.R. Ambedkar",
@@ -69,6 +77,7 @@ const Home = () => {
       {/* Header Section */}
       <header className="header">
         <div className="nav">
+        <button id="login" onClick={() => handleNavigation('/Login')}>Login</button>
           <span>HOME</span>
           <span>PARTS</span>
           <span>ABOUT US</span>
@@ -94,7 +103,7 @@ const Home = () => {
             The Constitution of India is not just a legal document; it is the foundation of our democracy.
             Understanding it helps you to know your rights, fulfill your duties, and participate meaningfully in the nation's governance.
           </p>
-          <button className="explore-btn">Explore More</button>
+          <button className="explore-btn"  onClick={() => handleNavigation('/more-info')}>Explore More</button>
         </section>
       </div>
 
@@ -144,6 +153,7 @@ const Home = () => {
         <h3>Try clicking below on Card</h3>
         <Flipcard /> {/* Add the FlipCard component */}
       </section>
+      <button className='mindmap' onClick={() => handleNavigation('/mind-map')}>Check Mind Map</button>
 
       {/* Footer Section */}
       <footer className="footer">
