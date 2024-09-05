@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel = "stylesheet" href = "login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <section class = "container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header>Login</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                         <input type="password" placeholder="Password" class="input">
+                         <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forget-pass">Forgot password?</a>       
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Login</button>
+                    </div>
+                </form>
+                <div class="form-link">
+                    <span>Already have an account? <a href="#" class="link signup-link">Signup</a></span>  
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src = "./google.jpg" alt="google-icon" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>  
+        </div>
+
+        <!-- Signup form -->
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Signup</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                         <input type="password" placeholder="Create Password" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Confirm Password" class="input">
+                        <i class='bx bx-hide eye-icon'></i>
+                   </div>
+
+                    <div class="field button-field">
+                        <button>Signup</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Already have an account? <a href="#" class="link login-link">Login</a></span>  
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src = "./google.jpg" alt="google-icon" class="google-img">
+                    <span>Continue with Google</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Javascript -->
+     <script src = "./login.js"></script>
+</body>
+</html>
