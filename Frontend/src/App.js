@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './Home.css'; 
-import Home from './Home';
-import MoreInfo from './MoreInfo';
-import MindMap from './mindmap';
+import './Home/Home.css'; 
+import Home from './Home/Home';
+import MoreInfo from './More Info/MoreInfo';
+import MindMap from './Mind Map/mindmap';
 
 const App = () => {
     return (

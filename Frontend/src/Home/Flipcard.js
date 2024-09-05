@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Flipcard.css';  //CSS is in Flipcard.css
-import parliament_icon from './images/parlaiment_icon.png';
+import parliament_icon from '../images/parlaiment_icon.png';
 
 function Flipcard() {
   const [isFlipped, setIsFlipped] = useState(false);

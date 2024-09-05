@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import './Home.css'; // Import your CSS
 import { useNavigate } from 'react-router-dom';
-import parliamentImage from './images/parliament.jpg'; // Add your images to the /src/images/ folder
-import ambedkarImage from './images/ambedkar.jpg'; // Replace with actual image paths
-import ayyarImage from './images/ayyar.jpg';
-import prasadImage from './images/prasad.jpg';
-import patelImage from './images/patel.jpg';
-import nehruImage from './images/nehru.jpg';
+import parliamentImage from '../images/parliament.jpg'; // Add your images to the /src/images/ folder
+import ambedkarImage from '../images/ambedkar.jpg'; // Replace with actual image paths
+import ayyarImage from '../images/ayyar.jpg';
+import prasadImage from '../images/prasad.jpg';
+import patelImage from '../images/patel.jpg';
+import nehruImage from '../images/nehru.jpg';
 import Flipcard from './Flipcard';
-import MindMap from './mindmap';
+import MindMap from '../Mind Map/mindmap';
+
 
 const Home = () => {
     
@@ -135,6 +136,7 @@ const Home = () => {
             {/* FlipCard Section */}
             <section className="flip-card-section">
                 <h2>Explore the Constitution</h2>
+                <h2>Try clicking below on Card</h2>
                 <Flipcard /> {/* Add the FlipCard component */}
             </section>
             <button className="mindmap-btn" onClick={() => navigate('/mind-map')}>Explore MindMaps</button>
