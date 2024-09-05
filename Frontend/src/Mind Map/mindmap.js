@@ -223,7 +223,7 @@ const MindMap = () => {
     { id: '10', data: { label: 'Executive' }, position: { x: 400, y: 460 }, className: 'node' },
     { id: '11', data: { label: 'State Legislature' }, position: { x: 800, y: 460 }, className: 'node' },
     { id: '12', data: { label: 'Legislative Powers' }, position: { x: 400, y: 510 }, className: 'node' },
-    { id: '13', data: { label: 'High Courts' }, position: { x: 800, y: 510 }, className: 'node' },
+    { id: '13', data: { label: 'High Courts' }, position: { x: 800, y: 530 }, className: 'node' },
     { id: '14', data: { label: 'Subordinate Courts' }, position: { x: 600, y: 570 }, className: 'node' },
     { id: '15', data: { label: 'Gram Panchayat' }, position: { x: 400, y: 640 }, className: 'node' },
     { id: '16', data: { label: 'Block Panchayat (Tahsil)' }, position: { x: 600, y: 640 }, className: 'node' },

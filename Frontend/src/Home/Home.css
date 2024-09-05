@@ -24,33 +24,39 @@ body {
   }
   
   .logo {
-    background-color: #00254d;
+    background-color: #00254d;    
   }
   
   .logo h1 {
     text-align: center;
     color: white;
-    margin: 0;
-    font-size: 56px;
+    margin: 0%;
+    font-size: 36px;
+  }
+  #login{
+    background-color: darkgray;
+  }
+  .mindmap{    
+    margin-left: 45%;
+    background-color: darkgray;
   }
   
   .logo span {
-    font-size: 30px;
+    font-size: 24px;
     font-style: italic;
   }
-  
-  .container {
+    .container {
+    margin-top: 0%;
     max-width: 100%;
     background-color: #cdcdcd;
     display: flex;
-    display: flex;
-    justify-content: left;
+    justify-content: center;
     position: inherit;
   }
   
   .why-constitution-matters {
-    text-align: left;
-    padding: 30px 20px;
+    text-align: center;
+    padding: 0px 20px;
     max-width: 50%;
   }
   
@@ -59,8 +65,9 @@ body {
     height: 5px;
     border: none;
     width: 150%;
-    margin: 10px auto;
-  }
+    margin: 5px auto;
+    
+   }
   
   .why-constitution-matters h2 {
     color: #da5c4f;
@@ -86,6 +93,7 @@ body {
   
   .parliament-section {
     text-align: center;
+    
   }
   
   .parliament-image {
@@ -206,9 +214,10 @@ body {
     font-size: 28px;
   }
   
-  .footer {
+  .footer p{
     text-align: center;
     padding: 20px;
-    background-color: #000;
+    background-color:darkblue;
     color: white;
   }
+    
