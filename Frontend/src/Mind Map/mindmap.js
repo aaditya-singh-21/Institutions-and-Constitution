@@ -216,7 +216,7 @@ const MindMap = () => {
     { id: '3', data: { label: 'Council of Ministers' }, position: { x: 600, y: 110 }, className: 'node' },
     { id: '4', data: { label: 'Vice-President' }, position: { x: 600, y: 180 }, className: 'node' },
     { id: '5', data: { label: 'Chief Justice of India' }, position: { x: 600, y: 230 }, className: 'node' },
-    { id: '6', data: { label: 'Supreme Court' }, position: { x: 600, y: 290 }, className: 'node' },
+    { id: '6', data: { label: 'Supreme Court' }, position: { x: 600, y: 300 }, className: 'node' },
     { id: '7', data: { label: 'Governors of States' }, position: { x: 400, y: 340 }, className: 'node' },
     { id: '8', data: { label: 'Chief Ministers of States' }, position: { x: 800, y: 340 }, className: 'node' },
     { id: '9', data: { label: 'Speakers of Lok Sabha and Rajya Sabha' }, position: { x: 600, y: 400 }, className: 'node' },
@@ -225,12 +225,12 @@ const MindMap = () => {
     { id: '12', data: { label: 'Legislative Powers' }, position: { x: 400, y: 510 }, className: 'node' },
     { id: '13', data: { label: 'High Courts' }, position: { x: 800, y: 510 }, className: 'node' },
     { id: '14', data: { label: 'Subordinate Courts' }, position: { x: 600, y: 570 }, className: 'node' },
-    { id: '15', data: { label: 'Gram Panchayat' }, position: { x: 400, y: 630 }, className: 'node' },
-    { id: '16', data: { label: 'Block Panchayat (Tahsil)' }, position: { x: 600, y: 630 }, className: 'node' },
-    { id: '17', data: { label: 'Zilla Parishad' }, position: { x: 800, y: 630 }, className: 'node' },
-    { id: '18', data: { label: 'Municipal Corporation' }, position: { x: 400, y: 700 }, className: 'node' },
-    { id: '19', data: { label: 'Municipality' }, position: { x: 600, y: 700 }, className: 'node' },
-    { id: '20', data: { label: 'City Council' }, position: { x: 800, y: 700 }, className: 'node' }
+    { id: '15', data: { label: 'Gram Panchayat' }, position: { x: 400, y: 640 }, className: 'node' },
+    { id: '16', data: { label: 'Block Panchayat (Tahsil)' }, position: { x: 600, y: 640 }, className: 'node' },
+    { id: '17', data: { label: 'Zilla Parishad' }, position: { x: 800, y: 640 }, className: 'node' },
+    { id: '18', data: { label: 'Municipal Corporation' }, position: { x: 400, y: 740 }, className: 'node' },
+    { id: '19', data: { label: 'Municipality' }, position: { x: 600, y: 740 }, className: 'node' },
+    { id: '20', data: { label: 'City Council' }, position: { x: 800, y: 740 }, className: 'node' }
   ];
   
 
