@@ -10,6 +10,7 @@ import nehruImage from './images/nehru.jpg';
 
 
 const Home = () => {
+    const navigate = useNavigate(); // Initialize navigate
     const architects = [
         {
             name: "Dr. B.R. Ambedkar",
@@ -77,7 +78,8 @@ const Home = () => {
                     The Constitution of India is not just a legal document; it is the foundation of our democracy.
                     Understanding it helps you to know your rights, fulfill your duties, and participate meaningfully in the nation's governance.
                 </p>
-                <button className="explore-btn">Explore More</button>
+                <button className="explore-btn" onClick={() => navigate('/more-info')}>Explore More</button>
+
             </section>
 
             {/* Parliament Image Section */}

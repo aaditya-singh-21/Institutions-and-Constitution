@@ -1,5 +1,4 @@
 import React from 'react';
-
 const MoreInfo = () => {
     return (
         <div className="more-info-page">
