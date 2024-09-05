@@ -8,6 +8,7 @@ import prasadImage from './images/prasad.jpg';
 import patelImage from './images/patel.jpg';
 import nehruImage from './images/nehru.jpg';
 import Flipcard from './Flipcard';
+import MindMap from './mindmap';
 
 const Home = () => {
     
@@ -136,6 +137,7 @@ const Home = () => {
                 <h2>Explore the Constitution</h2>
                 <Flipcard /> {/* Add the FlipCard component */}
             </section>
+            <button className="explore-btn" onClick={() => navigate('/mind-map')}>Explore MindMaps</button>
 
             {/* Footer Section */}
             <footer className="footer">
