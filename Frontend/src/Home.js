@@ -120,6 +120,7 @@ const Home = () => {
 
             {/* About Us Section */}
             <section className="about-us">
+                <h2>Simplifying The Constitution</h2>
                 <p>
                     Parts 5 and 6 of the Indian Constitution are pivotal in understanding the governance of India. Part 5 outlines the roles and powers of the
                     Union government, including the President, Vice-President, and the Supreme Court, while Part 6 defines the state governments' structure,

@@ -8,7 +8,7 @@ body {
 
 .header {
   background-color: #00254d;
-  color: white;
+  color: rgb(241, 223, 223);
   padding: 20px;
   text-align: center;
 }
@@ -21,7 +21,7 @@ body {
 
 .nav span {
   margin: 0 15px;
-  color: red;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 .nav #login{
@@ -36,7 +36,7 @@ body {
 .logo #subline {
   font-size: 2.0em;
   font-style: italic;
-  color: red;
+  color: rgb(252, 241, 241);
 }
 
 .why-constitution-matters {
@@ -52,6 +52,7 @@ body {
 .why-constitution-matters h3 {
   margin-top: 10px;
 }
+
 .explore-btn {
   padding: 10px 20px;
   background-color: red;
@@ -61,18 +62,6 @@ body {
   font-size: 1em;
   margin-top: 20px;
 }
-.mindmap-btn {
-  padding: 10px 20px;
-  background-color: red;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 1em;
-  margin-top: 20px;
-  text-align: center;
-  margin-left: 45%;
-}
-
 
 .parliament-section {
   text-align: center;
