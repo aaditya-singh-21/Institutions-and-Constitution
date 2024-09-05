@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Import your CSS
+import './Home.css'; // Import your CSS
 import { useNavigate } from 'react-router-dom';
 import parliamentImage from './images/parliament.jpg'; // Add your images to the /src/images/ folder
 import ambedkarImage from './images/ambedkar.jpg'; // Replace with actual image paths
@@ -118,7 +118,6 @@ const Home = () => {
 
             {/* About Us Section */}
             <section className="about-us">
-                <h2>About Us: Simplifying Constitutional Law</h2>
                 <p>
                     Parts 5 and 6 of the Indian Constitution are pivotal in understanding the governance of India. Part 5 outlines the roles and powers of the
                     Union government, including the President, Vice-President, and the Supreme Court, while Part 6 defines the state governments' structure,
