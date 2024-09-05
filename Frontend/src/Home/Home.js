@@ -1,11 +1,11 @@
 import React from 'react';
 import './Home.css'; // Import your CSS
 import Slider from "react-slick"; // Import react-slick slider
-import "slick-carousel/slick/slick.css"; // slick-carousel CSS
-import "slick-carousel/slick/slick-theme.css"; // slick-carousel theme CSS
+//import "slick-carousel/slick/slick.css"; // slick-carousel CSS
+//import "slick-carousel/slick/slick-theme.css"; // slick-carousel theme CSS
 import parliamentImage from '../images/parliament.jpg'; // Add your images to the /src/images/ folder
 import ambedkarImage from '../images/ambedkar.jpg'; // Replace with actual image paths
-import ayyarImage from '../images/ayyar.jpeg';
+import ayyarImage from '../images/ayyar.jpg';
 import prasadImage from '../images/prasad.jpg';
 import patelImage from '../images/patel.jpg';
 import nehruImage from '../images/nehru.jpg';
