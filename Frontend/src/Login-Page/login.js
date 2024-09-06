@@ -48,7 +48,7 @@ const Login = () => {
             </div>
 
             <div className="form-link">
-              <a href="#" className="forget-pass">Forgot password?</a>       
+              <a href="" className="forget-pass">Forgot password?</a>       
             </div>
 
             <div className="field button-field">
@@ -56,14 +56,14 @@ const Login = () => {
             </div>
           </form>
           <div className="form-link">
-            <span>Already have an account? <a href="#" className="link signup-link">Signup</a></span>  
+            <span>Already have an account? <a href="" className="link signup-link">Signup</a></span>  
           </div>
         </div>
 
         <div className="line"></div>
 
         <div className="media-options">
-          <a href="#" className="field google" onClick={googleLogin}>
+          <a href="" className="field google" onClick={googleLogin}>
             <img src="/google.jpg" alt="google-icon" className="google-img" />
             <span>Login with Google</span>
           </a>
@@ -94,14 +94,14 @@ const Login = () => {
           </form>
 
           <div className="form-link">
-            <span>Already have an account? <a href="#" className="link login-link">Login</a></span>  
+            <span>Already have an account? <a href="" className="login-link">Login</a></span>  
           </div>
         </div>
 
         <div className="line"></div>
 
         <div className="media-options">
-          <a href="#" className="field google" onClick={googleLogin}>
+          <a href="" className="field google" onClick={googleLogin}>
             <img src="/google.jpg" alt="google-icon" className="google-img" />
             <span>Continue with Google</span>
           </a>
