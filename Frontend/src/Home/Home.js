@@ -81,7 +81,7 @@ const Home = () => {
           <span>HOME</span>
           <span>PARTS</span>
           <span>ABOUT US</span>
-          <button onClick={() => handleNavigation('/ContactUs')}>CONTACT US</button>
+          <button className='contact' onClick={() => handleNavigation('/ContactUs')}>CONTACT US</button>
           <span align="right">LOG IN</span>
         </div>
       </header>

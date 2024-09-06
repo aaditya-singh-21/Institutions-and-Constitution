@@ -6,9 +6,23 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: flex-end;
   color: white;
   padding: 20px;
   text-align: center;
+  gap: 15x;
+  align-items: center;
+}
+
+.contact{
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: darkgrey;
+  height: 40px;
+  
 }
 
 .nav {
@@ -35,6 +49,11 @@ body {
 }
 #login{
   background-color: darkgray;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  font-weight: bold;
+  height: 40px;
 }
 .mindmap{    
   margin-left: 45%;
