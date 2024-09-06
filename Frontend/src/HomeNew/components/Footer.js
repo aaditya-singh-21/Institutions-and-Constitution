@@ -8,24 +8,23 @@ const Footer = () => {
                 <div className="footer-section AboutUs">
                     <h3>About Us</h3>
                     <p>We simplify the Indian Constitution, focusing on Parts V and VI, to make it easier for everyone to understand. Our mission is to make legal concepts accessible through interactive tools like mind maps and quizzes.</p>
-                    <a href="#">Learn More About Us &rarr;</a>
+                    
                 </div>
-                <div className="footer-section quick-links">
+                {/*<div className="footer-section quick-links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="">Home</a></li>
                         <li><a href="#">Mind Maps</a></li>
                         <li><a href="#">FAQ</a></li>
                     </ul>
-                </div>
+                </div>*/}
                 <div className="footer-section resources">
                     <h3>Resources</h3>
                     <ul>
-                        <li><a href="#">Articles</a></li>
-                        <li><a href="#">Constitution of India (PDF)</a></li>
-                        <li><a href="#">Educational Videos</a></li>
-                        <li><a href="#">Useful References</a></li>
-                        <li><a href="#">Blogs</a></li>
+                        <li><a href="https://www.constitutionofindia.net/read/#parts">Articles</a></li>
+                        <li><a href="https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf">Constitution of India (PDF)</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Constitution_of_India">Useful References</a></li>
+                        <li><a href="https://constitutionofindia-karnataka.in/blogs/">Blogs</a></li>
                     </ul>
                 </div>
                 <div className="footer-section enquiry">

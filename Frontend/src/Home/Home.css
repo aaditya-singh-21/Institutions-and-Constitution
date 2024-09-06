@@ -55,9 +55,16 @@ body {
   font-weight: bold;
   height: 40px;
 }
-.mindmap{    
+.mindmap{     
   margin-left: 45%;
+  margin-top:-80px;
+  margin-bottom: 15px;
   background-color: darkgray;
+  padding: 10px;
+  border-radius: 5px;
+  width: 160px;
+  font-weight: bold;
+  height: 80px;
 }
 
 .logo span {

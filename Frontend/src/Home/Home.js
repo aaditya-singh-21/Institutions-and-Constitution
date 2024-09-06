@@ -11,6 +11,7 @@ import patelImage from '../images/patel.jpg';
 import nehruImage from '../images/nehru.jpg';
 import Flipcard from './Flipcard';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../HomeNew/components/Footer';
 
 
 const Home = () => {
@@ -82,7 +83,7 @@ const Home = () => {
           <span>PARTS</span>
           <span>ABOUT US</span>
           <button className='contact' onClick={() => handleNavigation('/ContactUs')}>CONTACT US</button>
-          <span align="right">LOG IN</span>
+          
         </div>
       </header>
       <div className="logo">
@@ -156,9 +157,10 @@ const Home = () => {
       <button className='mindmap' onClick={() => handleNavigation('/mind-map')}>Check Mind Map</button>
 
       {/* Footer Section */}
-      <footer className="footer">
+      {/*<footer className="footer">
         <p>&copy; 2024 Institutions & Constitution. All rights reserved.</p>
-      </footer>
+      </footer>*/}
+      <Footer />
     </div>
   );
 };
