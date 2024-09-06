@@ -13,7 +13,6 @@ import Flipcard from './Flipcard';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../HomeNew/components/Footer';
 
-
 const Home = () => {
   const navigate = useNavigate();
 
@@ -79,8 +78,9 @@ const Home = () => {
       <header className="header">
         <div className="nav">        
           <span>HOME</span>
-          <button id="login" onClick={() => handleNavigation('/Login')}>Login</button>
+          <button id="login" onClick={() => handleNavigation('/Login')}>LOGIN</button>
           <button className='contact' onClick={() => handleNavigation('/ContactUs')}>CONTACT US</button>
+          {/*<button className='contact' onClick={() => handleNavigation('/Feedback')}>GIVE FEEDBACK</button>*/}
           
         </div>
       </header>
