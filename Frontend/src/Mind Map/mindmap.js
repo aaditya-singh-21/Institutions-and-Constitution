@@ -234,19 +234,28 @@ const MindMap = () => {
   ];
   
 
-  // Define hierarchical edges
+  // hierarchical edges
   const edges = [
-    { id: 'e1-2', source: '1', target: '2', style: { stroke: '#ff0000' }},
-    { id: 'e2-3', source: '2', target: '3', style: { stroke: '#ff0000' }},
-    { id: 'e3-6', source: '3', target: '6', style: { stroke: '#ff0000' }},
-    { id: 'e3-7', source: '3', target: '7', style: { stroke: '#ff0000' }},
-    { id: 'e3-8', source: '3', target: '8', style: { stroke: '#ff0000' }},
-    { id: 'e6-9', source: '6', target: '9', style: { stroke: '#ff0000' }},
-    { id: 'e7-10', source: '7', target: '10', style: { stroke: '#ff0000' }},
-    { id: 'e10-11', source: '10', target: '11', style: { stroke: '#ff0000' }},
-    { id: 'e11-12', source: '11', target: '12', style: { stroke: '#ff0000' }},
-    { id: 'e12-13', source: '12', target: '13', style: { stroke: '#ff0000' }}
+    { id: 'e1-2', source: '1', target: '2', style: { stroke: '#ff0000' } },
+    { id: 'e2-3', source: '2', target: '3', style: { stroke: '#ff0000' } },
+    { id: 'e3-4', source: '3', target: '4', style: { stroke: '#ff0000' } },
+    { id: 'e3-5', source: '3', target: '5', style: { stroke: '#ff0000' } },
+    { id: 'e3-6', source: '3', target: '6', style: { stroke: '#ff0000' } },
+    { id: 'e6-9', source: '6', target: '9', style: { stroke: '#ff0000' } },
+    { id: 'e7-10', source: '7', target: '10', style: { stroke: '#ff0000' } },
+    { id: 'e8-10', source: '8', target: '10', style: { stroke: '#ff0000' } },
+    { id: 'e10-11', source: '10', target: '11', style: { stroke: '#ff0000' } },
+    { id: 'e11-12', source: '11', target: '12', style: { stroke: '#ff0000' } },
+    { id: 'e12-13', source: '12', target: '13', style: { stroke: '#ff0000' } },
+    { id: 'e13-14', source: '13', target: '14', style: { stroke: '#ff0000' } },
+    { id: 'e14-15', source: '14', target: '15', style: { stroke: '#ff0000' } },
+    { id: 'e14-16', source: '14', target: '16', style: { stroke: '#ff0000' } },
+    { id: 'e15-17', source: '15', target: '17', style: { stroke: '#ff0000' } },
+    { id: 'e17-18', source: '17', target: '18', style: { stroke: '#ff0000' } },
+    { id: 'e18-19', source: '18', target: '19', style: { stroke: '#ff0000' } },
+    { id: 'e19-20', source: '19', target: '20', style: { stroke: '#ff0000' } }
   ];
+  
 
   const handleNodeMouseEnter = (event, node) => {
     const role = rolesData.find(role => role.id === node.id);
