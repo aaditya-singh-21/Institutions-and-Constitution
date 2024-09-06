@@ -77,11 +77,9 @@ const Home = () => {
     <div className="App">
       {/* Header Section */}
       <header className="header">
-        <div className="nav">
-        <button id="login" onClick={() => handleNavigation('/Login')}>Login</button>
+        <div className="nav">        
           <span>HOME</span>
-          <span>PARTS</span>
-          <span>ABOUT US</span>
+          <button id="login" onClick={() => handleNavigation('/Login')}>Login</button>
           <button className='contact' onClick={() => handleNavigation('/ContactUs')}>CONTACT US</button>
           
         </div>
