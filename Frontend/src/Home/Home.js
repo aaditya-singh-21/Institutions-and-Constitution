@@ -78,7 +78,6 @@ const Home = () => {
       <header className="header">
         <div className="nav">        
           <span>HOME</span>
-          <button id="login" onClick={() => handleNavigation('/Login')}>LOGIN</button>
           <button className='contact' onClick={() => handleNavigation('/ContactUs')}>CONTACT US</button>
           {/*<button className='contact' onClick={() => handleNavigation('/Feedback')}>GIVE FEEDBACK</button>*/}
           
